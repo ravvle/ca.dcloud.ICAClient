@@ -1,6 +1,6 @@
 app-id: ca.dcloud.ICAClient
 runtime: org.gnome.Platform
-runtime-version: '43'
+runtime-version: '41'
 sdk: org.gnome.Sdk
 command: /app/bin/run.sh
 
