@@ -12,7 +12,7 @@ finish-args:
   - --device=all  #For webcam/microphone access. Future work will be to remove this permission, and replace with a more restrictive one for those devices only
   - --share=network
   - --socket=pulseaudio
-  - --socket=fallback-x11 
+  - --socket=x11 
   - --share=ipc #Required for X11 to work properly
   - --env=ICAROOT=/app/ICAClient/linuxx64 
   - --socket=wayland
